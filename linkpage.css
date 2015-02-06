@@ -1,0 +1,383 @@
+body, html{
+	background-image: url("../images/333.jpg");
+	background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*All images*/
+img{
+	height:175px;
+	max-width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#hidden{
+	display: none;
+}
+
+#show{
+	text-decoration: none;
+	margin-left:25px;
+}
+
+#show:hover + #hidden{
+	display: block;
+	background-color: #E6E6E6;
+	width: 200px;
+	height: 400px;
+	margin-left: 25px;
+	z-index: 10;
+	position: fixed;
+	opacity:0.9;
+	}
+
+/*White Container*/
+#container1{
+	height: 1320px;
+	margin: 50px 150px 25px 150px;
+	padding-top:25px;
+	padding-right: 30px;
+	background-color: #ffffff;
+	border-radius:10px;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+}
+
+/* All list items (images and text)*/
+#container1 li{
+	padding-bottom: 30px;
+	font-family: helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #29293D;
+	text-align: center;
+		display:inline;
+	list-style-type: none;
+}
+
+/*Links*/
+#container1 li a, #container1 li a:visited{
+	text-decoration: none;
+	color: #29293D;
+}
+
+/*Design Critiques image and text*/
+#dcimg{
+	border-bottom: 3px solid #66FF66;
+
+}
+
+#dc{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-top: -12px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#dcimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*CSS (category) image and text*/
+
+#cssimg{
+	border-bottom: 3px solid #3399FF;
+}
+
+#css{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#cssimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Web Hosting image and text*/
+
+#whimg{
+	border-bottom: 3px solid #FF1975;
+}
+
+#wh{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#whimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Design (category) image and text*/
+
+#desimg{
+	border-bottom: 3px solid #669900;
+}
+
+#des{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#desimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*jQuery (category) image and text*/
+
+#jqimg{
+	border-bottom: 3px solid #5C5CE6;
+}
+
+#jq{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#jqimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+
+/*Tales From Designers (category) image and text*/
+
+#tfdimg{
+	border-bottom: 3px solid #008A8A;
+}
+
+#tfd{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#tfdimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+/*Crappy Design (category) image and text*/
+
+#cdimg{
+	border-bottom: 3px solid #FFD630;
+}
+
+#cd{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#cdimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*JavaScript (category) image and text*/
+
+#jsimg{
+	border-bottom: 3px solid #FF66CC;
+}
+
+#js{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#jsimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Web Marketing (category) image and text*/
+
+#wmimg{
+	border-bottom: 3px solid #FF4719;
+}
+
+#wm{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#wmimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+/*User Experience (category) image and text*/
+
+#uximg{
+	border-bottom: 3px solid #297A52;
+}
+
+#ux{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#uximg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*PHP (category) image and text*/
+
+#phpimg{
+	border-bottom: 3px solid #FF7519;
+}
+
+#php{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#phpimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Dotcom (category) image and text*/
+
+#dotcimg{
+	border-bottom: 3px solid #993399;
+}
+
+#dotc{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#dotcimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Web Development (category) image and text*/
+
+#wdimg{
+	border-bottom: 3px solid #669900;
+}
+
+#wd{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#wdimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Word Press (category) image and text*/
+
+#wpimg{
+	border-bottom: 3px solid #FF9999;
+}
+
+#wp{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#wpimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
+
+/*Somebody Make This (category) image and text*/
+
+#smtimg{
+	border-bottom: 3px solid #CF0053;
+}
+
+#smt{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 5px;
+	padding-bottom: 220px;
+	margin-bottom: 25px;
+	z-index: 10;
+	border-radius: 10px;
+}
+
+#smtimg:hover {
+    opacity: 0.8; /* css standard */
+    filter: alpha(opacity=100); /* internet explorer */
+}
